@@ -17,6 +17,7 @@ class App extends Component {
                           
         //         <Route path="/employees" render={() => (
                   <Employees />,
+                  document.getElementById('home-page')
                   
                 // )} />
 /*                 
