@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const http = require("http").Server(app);
 
 const MongoClient = require('mongodb').MongoClient;
-const createRouter = require('./helpers/create_routers.js');
+const createRouter = require('./create_routers.js');
 const assert = require('assert');
 
 app.use(express.json());
